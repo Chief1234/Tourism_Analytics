@@ -1,0 +1,22 @@
+# ── Large data & model files (too big for GitHub) ──
+models/
+data/
+*.zip
+*.pkl
+
+# ── Python cache ──
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# ── VS Code settings ──
+.vscode/
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+
+# ── Output charts (generated automatically by run_all.py) ──
+outputs/
+extracted_data/
